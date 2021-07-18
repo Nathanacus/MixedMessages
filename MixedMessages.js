@@ -13,7 +13,7 @@ const arrayCats = [
   "lynx",
   "ocelot",
   "serval",
-  "tiger",
+  "tiger"
 ];
 
 // List of tree species
@@ -27,7 +27,23 @@ const arrayTrees = [
   "pine",
   "spruce",
   "sycamore",
-  "willow",
+  "willow"
+];
+
+// List of months
+const arrayMonths = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December"
 ];
 
 // //////////////////////////
@@ -69,7 +85,12 @@ if (startsWithVowel(cat)) {
 
 // Get the current date
 let today = new Date();
-let date = today.getMonth() + "/" + today.getDate() + "/" + today.getFullYear();
+let date =
+  arrayMonths[today.getMonth()] +
+  " " +
+  today.getDate() +
+  ", " +
+  today.getFullYear();
 
 // Output message to the user
 console.log(`A${cat} climbed up the ${tree} tree on ${date}!`);
