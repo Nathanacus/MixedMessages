@@ -28,7 +28,7 @@ Cat species included:
 Tree species included:
 - Apple
 - Banyan
-- Boabab
+- Baobab
 - Fir
 - Magnolia
 - Oak
